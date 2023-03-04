@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-image: url("./img/backgrnd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+.calc-button-band {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.calc-column {
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.calc-button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+
+    min-width: 75px;
+    min-height: 75px;
+    padding: auto;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.calc-button.big-button{
+    min-height: 170px;
+}
+
+.calc-top-band{
+    display: flex;
+    margin-left: 10px;
+    height: 100px;
+    width: 455px;
+    border: 2px solid black;
+    justify-content: flex-end;
+}
+
+.calc-memory {
+    font-size: 30px;
+}
+
+.calc-value {
+    font-size: 60px;
+}
+
+
+.calc-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nerd {
+    font-size:32px;
+    /* margin-right: 66.6667%; */
+}
