@@ -114,9 +114,9 @@ function evalExp(){
             break;
         default: return '/#EVIL';
     }
-    if(result.toString().length >= 14) {
+    if(result.toString().length > 14) {
         result = result.toExponential();
-        if(result.toString().length >= 14) 
+        if(result.toString().length > 14) 
             return '/#BIG'
     }
     return result;
