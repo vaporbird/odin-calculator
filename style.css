@@ -70,12 +70,14 @@ h1 {
 
 .calc-value {
     font-size: 60px;
+    text-align:right;
 }
 
 
 .calc-content {
     display: flex;
     flex-direction: column;
+    text-align:right;
 }
 
 
