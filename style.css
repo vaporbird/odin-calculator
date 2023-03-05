@@ -16,6 +16,19 @@ body {
     background-attachment: fixed;
 }
 
+.shift-hold.calc-button{
+    border: double;
+}
+
+.calc-button.clicked {
+    transition: 0.5s;
+    background-color:rgba(138, 43, 226, 0.25);
+    scale: 1.075;
+}
+.calc-button.clicked.music{
+    transition: 3s;
+}
+
 h1 {
     padding-left: 10px;
 }
@@ -81,7 +94,13 @@ h1 {
 }
 
 
-.nerd {
+.music {
     font-size:32px;
     /* margin-right: 66.6667%; */
+}
+
+.tooltip {
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 10px;
 }
